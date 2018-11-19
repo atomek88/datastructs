@@ -1,0 +1,8 @@
+results of testing diff data structures for sumof3 algorithm over 1.5N x 10^i
+main operations; (append) hold M objects, resizing towards end of list
+                 (sumof3) hold M-2 sums of all 3 subarrays of M, search for num in this structure
+========================================================================
+
+
+
+

@@ -1,0 +1,21 @@
+Tomasz Michalik project Oct 2018 - Apply various software design patternsto build reusable configurable program
+-Program runs various {supplied list} algorithms over supplied QUANTITY(N) numbers in your array on DESIRED CONTAINER
+
+Choose N size array from CL, abstract this out into a class with a scanner that will scan in user input for type of Strategy
+and type of Cointainer to use for N number of elements.
+
+some class that implements desired interface or algorithms super class, may support reused methods
+-> Named methods
+append,   append in middle, append in end  // methods that add elements or remove
+runStrategy                                // runs algorithm over the data
+
+Main subclass will be the actual strategy with implemented or overridden methods (may implement interface and inherit from super)
+ex. Sumof3Strategy will implement and have flexible "data structure"
+
+? Should which data structure is created be divided as well? A builder or a factory of structs and algos to use with them?
+
+Should DataStructure also be abstracted out which implement their own interfaces and use diff ways of adding/removing elements?
+
+
+
+Measures time(Instant) from beginning to ending of the execution
